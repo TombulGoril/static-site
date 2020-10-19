@@ -9,12 +9,12 @@ import styles from "./PageTitle.module.css";
 interface IProps {
   children: ReactNode;
   tabTitle?: string;
-  stylename?: "large_uncentered" | "large" | "uncentered" | "normal";
+  styleName?: "large_uncentered" | "large" | "uncentered" | "normal";
 }
 
-const PageTitle: React.FC<IProps> = ({ children, tabTitle, stylename }) => {
+const PageTitle: React.FC<IProps> = ({ children, tabTitle, styleName }) => {
   return (
-    <h1 className={stylename ? styles[stylename] : styles.normal}>
+    <h1 className={styleName ? styles[styleName] : styles.normal}>
       {tabTitle && (
         <Head>
           <title>{tabTitle}</title>
