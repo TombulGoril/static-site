@@ -5,9 +5,7 @@ import Layout from "../Layout/Layout";
 const Home: NextPage = () => {
   return (
     <Layout>
-      <main>
-        <PageTitle stylename='large'>Tombul Goril</PageTitle>
-      </main>
+      <PageTitle stylename='large'>Tombul Goril</PageTitle>
     </Layout>
   );
 };

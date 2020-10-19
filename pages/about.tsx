@@ -5,9 +5,7 @@ import Layout from "../Layout/Layout";
 const About: NextPage = () => {
   return (
     <Layout>
-      <main className='page_content'>
-        <PageTitle tabTitle='About us - Tombul Goril'>About us</PageTitle>
-      </main>
+      <PageTitle tabTitle='About us - Tombul Goril'>About us</PageTitle>
     </Layout>
   );
 };
