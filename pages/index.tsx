@@ -1,12 +1,15 @@
-import { NextPage } from "next"
-import PageTitle from "../Components/PageTitle"
+import { NextPage } from "next";
+import PageTitle from "../Components/PageTitle";
+import Layout from "../Layout/Layout";
 
 const Home: NextPage = () => {
   return (
-    <main>
-      <PageTitle>Tombul Goril</PageTitle>
-    </main>
-  )
-}
+    <Layout>
+      <main>
+        <PageTitle>Tombul Goril</PageTitle>
+      </main>
+    </Layout>
+  );
+};
 
-export default Home
+export default Home;
