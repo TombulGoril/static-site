@@ -1,5 +1,6 @@
 import { GetStaticProps, NextPage } from "next";
 import PageTitle from "../../Components/PageTitle";
+import ProductCard from "../../Components/ProductCard";
 import Layout from "../../Layout/Layout";
 import styles from "./index.module.css";
 
@@ -12,16 +13,7 @@ interface IProps {
 
 const Products: NextPage<IProps> = ({ products }) => {
   const productElements = products.map((product, index) => {
-    return (
-      <article className={styles.product_card} key={index}>
-        <img
-          src={product.image}
-          alt={product.title}
-          className={styles.product_image}
-        />
-        <h1 className={styles.product_title}>{product.title}</h1>
-      </article>
-    );
+    return <ProductCard elementKey={index} product={product} />;
   });
 
   return (
