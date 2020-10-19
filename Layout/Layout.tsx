@@ -6,10 +6,15 @@ import Link from "next/link";
 import styles from "./Layout.module.css";
 import { useRouter } from "next/router";
 
-const Layout: NextPage<{ children: ReactNode; logoWidthHeight?: number }> = ({
-  children,
-  logoWidthHeight,
-}) => {
+// Props interface
+// Children: React JSX
+// Logo Width [&] Height: The width and height used in the image (Assumes a square image)
+interface IProps {
+  children: ReactNode;
+  logoWidthHeight?: number;
+}
+
+const Layout: NextPage<IProps> = ({ children, logoWidthHeight }) => {
   const Router = useRouter();
   logoWidthHeight = logoWidthHeight || 128;
   return (
