@@ -5,21 +5,21 @@ import { ReactNode } from "react";
 // Children: React JSX
 // Tab Title?: Title which will be used in <head> (The tab title)
 interface IProps {
-    children: ReactNode
-    tabTitle?: string
+  children: ReactNode;
+  tabTitle?: string;
 }
 
 const PageTitle: React.FC<IProps> = ({ children, tabTitle }) => {
-    return (
-        <h1>
-            {tabTitle && 
-                <Head>
-                    <title>{tabTitle}</title>
-                </Head>
-            }
-            {children}
-        </h1>
-    )
-}
+  return (
+    <h1>
+      {tabTitle && (
+        <Head>
+          <title>{tabTitle}</title>
+        </Head>
+      )}
+      {children}
+    </h1>
+  );
+};
 
-export default PageTitle
+export default PageTitle;
