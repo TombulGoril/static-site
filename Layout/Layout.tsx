@@ -64,7 +64,7 @@ const Layout: NextPage<{ children: ReactNode; logoWidthHeight?: number }> = ({
           </li>
         </ul>
       </nav>
-      <section>{children}</section>
+      <section className={styles.page_content}>{children}</section>
     </>
   );
 };

@@ -1,0 +1,17 @@
+.normal,
+.uncentered,
+.large,
+.large_uncentered {
+  font-size: 2rem;
+  display: block;
+}
+
+.normal,
+.large {
+  text-align: center;
+}
+
+.large,
+.large_uncentered {
+  font-size: 2.5rem;
+}

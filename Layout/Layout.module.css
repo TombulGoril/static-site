@@ -27,3 +27,7 @@
   background: black;
   color: var(--primary-color);
 }
+
+.page_content {
+  padding: 0 1rem;
+}
