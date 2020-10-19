@@ -1,6 +1,9 @@
 import Head from "next/head";
 import { ReactNode } from "react";
 
+// Props Interface
+// Children: React JSX
+// Tab Title?: Title which will be used in <head> (The tab title)
 interface IProps {
     children: ReactNode
     tabTitle?: string
