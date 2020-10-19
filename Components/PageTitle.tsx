@@ -5,6 +5,7 @@ import styles from "./PageTitle.module.css";
 // Props Interface
 // Children: React JSX
 // Tab Title?: Title which will be used in <head> (The tab title)
+// Style name?: CSS Classname that will be used for the heading
 interface IProps {
   children: ReactNode;
   tabTitle?: string;
