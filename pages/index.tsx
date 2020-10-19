@@ -1,7 +1,12 @@
-import Head from 'next/head'
+import { NextPage } from "next"
+import PageTitle from "../Components/PageTitle"
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
-    <h1>Tombul Goril</h1>
+    <main>
+      <PageTitle>Tombul Goril</PageTitle>
+    </main>
   )
 }
+
+export default Home
