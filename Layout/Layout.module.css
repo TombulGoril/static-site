@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav_list {
+  list-style: none;
+}
+
+.nav_list_item {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.nav_list_item_link {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.nav_list_item_link_current {
+  background: black;
+  color: var(--primary-color);
+}
