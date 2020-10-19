@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--primary-color);
+  background: var(--logo-color);
   padding: 0 0.5rem;
 }
 
@@ -25,7 +25,7 @@
 .nav_list_item_link_current,
 .nav_list_item_link:hover {
   background: black;
-  color: var(--primary-color);
+  color: var(--logo-color);
 }
 
 .page_content {
