@@ -20,9 +20,11 @@
   padding: 0.5rem;
   font-size: 1.2rem;
   color: black;
+  transition: 0.2s;
 }
 
-.nav_list_item_link_current {
+.nav_list_item_link_current,
+.nav_list_item_link:hover {
   background: black;
   color: var(--primary-color);
 }
