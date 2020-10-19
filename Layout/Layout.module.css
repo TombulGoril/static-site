@@ -3,8 +3,7 @@
   align-items: center;
   justify-content: space-between;
   background: var(--primary-color);
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0 0.5rem;
 }
 
 .nav_list {
