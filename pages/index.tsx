@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <main>
-        <PageTitle>Tombul Goril</PageTitle>
+        <PageTitle stylename='large'>Tombul Goril</PageTitle>
       </main>
     </Layout>
   );
