@@ -15,11 +15,9 @@ interface IProps {
 const PageTitle: React.FC<IProps> = ({ children, tabTitle, styleName }) => {
   return (
     <h1 className={styleName ? styles[styleName] : styles.normal}>
-      {tabTitle && (
-        <Head>
-          <title>{tabTitle}</title>
-        </Head>
-      )}
+      <Head>
+        <title>{tabTitle || children}</title>
+      </Head>
       {children}
     </h1>
   );
