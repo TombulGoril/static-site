@@ -37,7 +37,7 @@ export const getStaticProps: GetStaticProps<IProps> = async (_) => {
       // Regex to remove file extension so we get a clean title
       // Caveat: We have to cleanly name our files
       title: file.replace(/\.[^/.]+$/, ""),
-      image: `/products/${file}`,
+      image: `/product_images/${file}`,
     };
   });
 
