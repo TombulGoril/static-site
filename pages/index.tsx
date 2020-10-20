@@ -29,12 +29,14 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <PageTitle styleName='large'>Tombul Goril</PageTitle>
-      <ImageGallery
-        items={sliderImages}
-        showPlayButton={false}
-        showFullscreenButton={false}
-        showThumbnails={false}
-      />
+      <section style={{ marginBottom: "1rem" }}>
+        <ImageGallery
+          items={sliderImages}
+          showPlayButton={false}
+          showFullscreenButton={false}
+          showThumbnails={false}
+        />
+      </section>
     </Layout>
   );
 };
