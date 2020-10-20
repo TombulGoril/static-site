@@ -29,7 +29,9 @@ export const getStaticProps: GetStaticProps<IProps> = async (_) => {
   const fs = await import("fs");
   const path = await import("path");
 
-  const files = fs.readdirSync(path.join(process.cwd(), "/public/products"));
+  const files = fs.readdirSync(
+    path.join(process.cwd(), "/public/product_images")
+  );
   const products = files.map((file) => {
     return {
       // Regex to remove file extension so we get a clean title
