@@ -26,7 +26,22 @@ const About: NextPage = () => {
       <p>
         Chubby Gorilla has revolutionized the industry, in several interesting
         and exciting ways. With their design &amp; engineering team in
-        California and their
+        California and the materials used in the manufacturing process, they
+        assure their customers that they get the highest quality possible.
+      </p>
+      <p>
+        The Unicorn v3 series are the best-selling bottles, because of their
+        high durability, quality, and because they preserve the liquid inside
+        for a long time, due to the caps being air-tight and plastic materials
+        used in manufacturing. They also come with removable drip-nozzles for
+        the times you need a fine amount of liquid only, and because they are
+        removable, you can buy your own nozzles that suit your needs.
+      </p>
+      <p>
+        The Aviator series comes in many types, and sizes different to the
+        Unicorn series, they suit liquids that get damaged quickly. Because of
+        the cap design of the bottles, the bottle contents are completely sealed
+        from both air and water, so they guarantee a longer shelf-life.
       </p>
     </Layout>
   );
