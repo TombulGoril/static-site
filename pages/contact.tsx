@@ -11,18 +11,21 @@ const Contact: NextPage = () => {
       </PageTitle>
       <ul className={styles.info}>
         <li className={styles.card}>
+          Email:&nbsp;
           <a href='mailto:goriltombul@gmail.com' className={styles.link}>
             goriltombul@gmail.com
           </a>
         </li>
         <li className={styles.card}>
+          Phone:&nbsp;
           <a href='tel:+905436950980' className={styles.link}>
             +90 543 695 09 80
           </a>
         </li>
         <li className={styles.card}>
+          Whatsapp:&nbsp;
           <a href='https://wa.link/asw2b8' className={styles.link}>
-            Whatsapp
+            +90 543 695 09 80
           </a>
         </li>
       </ul>
