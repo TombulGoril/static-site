@@ -38,8 +38,8 @@
   align-items: center;
   justify-content: center;
   padding-left: 1rem;
+  padding-bottom: 1rem;
   width: 100vw;
-  height: 4rem;
   background: var(--logo-color);
   font-size: 0.8rem;
   font-weight: 300;
