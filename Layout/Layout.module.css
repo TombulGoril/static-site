@@ -41,4 +41,5 @@
   width: 100vw;
   background: var(--logo-color);
   font-weight: 300;
+  font-size: 0.8rem;
 }
