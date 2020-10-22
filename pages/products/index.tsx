@@ -29,6 +29,9 @@ export const getStaticProps: GetStaticProps<IProps> = async (_) => {
   const fs = await import("fs");
   const path = await import("path");
 
+  // Read directory (string[]) and sort by comparing which letter
+  // Comes first in specified locale ("en"), including numeric values & ignorinc punctuation
+  // Return: string[]
   const files = fs
     .readdirSync(path.join(process.cwd(), "/public/product_images"))
     .sort((a, b) =>
