@@ -5,6 +5,7 @@ import { ReactNode } from "react";
 import Link from "next/link";
 import styles from "./Layout.module.css";
 import { useRouter } from "next/router";
+import SocialIcons from "../Components/SocialIcons";
 
 // Props interface
 // Children: React JSX
@@ -71,6 +72,7 @@ const Layout: NextPage<IProps> = ({ children, logoWidthHeight }) => {
       </nav>
       <section className={styles.page_content}>{children}</section>
       <footer className={styles.footer}>
+        <SocialIcons />
         <span>Copyright {new Date().getFullYear} Tombul Goril&copy;</span>
       </footer>
     </>

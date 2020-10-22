@@ -1,0 +1,13 @@
+.list {
+  list-style: none;
+}
+
+.list_item {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
