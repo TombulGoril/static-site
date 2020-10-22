@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--logo-color);
+  padding: 0 0.5rem;
+}
+
+.nav_list {
+  list-style: none;
+}
+
+.nav_list_item {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.nav_list_item_link {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: black;
+  transition: 0.2s;
+}
+
+.nav_list_item_link_current,
+.nav_list_item_link:hover {
+  background: black;
+  color: var(--logo-color);
+}
+
+.page_content {
+  padding: 0 1rem 1rem 1rem;
+}
