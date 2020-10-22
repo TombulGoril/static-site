@@ -68,6 +68,19 @@ const Layout: NextPage<IProps> = ({ children, logoWidthHeight }) => {
               </a>
             </Link>
           </li>
+          <li className={styles.nav_list_item}>
+            <Link href='/contact'>
+              <a
+                className={`${styles.nav_list_item_link} ${
+                  Router.pathname === "/contact"
+                    ? styles.nav_list_item_link_current
+                    : ""
+                }`}
+              >
+                Contact us
+              </a>
+            </Link>
+          </li>
         </ul>
       </nav>
       <section className={styles.page_content}>{children}</section>
