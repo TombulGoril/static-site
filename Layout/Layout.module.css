@@ -33,14 +33,12 @@
 }
 
 .footer {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 1rem;
-  padding-bottom: 1rem;
   width: 100vw;
   background: var(--logo-color);
-  font-size: 0.8rem;
   font-weight: 300;
 }

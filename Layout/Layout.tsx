@@ -73,7 +73,7 @@ const Layout: NextPage<IProps> = ({ children, logoWidthHeight }) => {
       <section className={styles.page_content}>{children}</section>
       <footer className={styles.footer}>
         <SocialIcons />
-        <span>Copyright {new Date().getFullYear} Tombul Goril&copy;</span>
+        <p>Copyright {new Date().getFullYear} Tombul Goril&copy;</p>
       </footer>
     </>
   );
