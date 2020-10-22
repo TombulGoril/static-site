@@ -33,6 +33,7 @@ const Home: NextPage = () => {
           showPlayButton={false}
           showFullscreenButton={false}
           showThumbnails={false}
+          autoPlay={true}
         />
       </section>
     </Layout>
