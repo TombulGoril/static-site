@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import PageTitle from "../Components/PageTitle";
 import Layout from "../Layout/Layout";
+import styles from "./about.module.css";
 
 const About: NextPage = () => {
   return (
@@ -21,7 +22,6 @@ const About: NextPage = () => {
         and with our partners at Chubby Gorilla we are working day and night to
         provide customers with the highest quality products they need.
       </p>
-      <hr />
       <h1 style={{ fontSize: "2.5rem" }}>Chubby Gorilla</h1>
       <p>
         Chubby Gorilla has revolutionized the industry, in several interesting
@@ -43,6 +43,11 @@ const About: NextPage = () => {
         the cap design of the bottles, the bottle contents are completely sealed
         from both air and water, so they guarantee a longer shelf-life.
       </p>
+      <div
+        style={{ display: "flex", justifyContent: "center", margin: "2rem 0" }}
+      >
+        <img src='/logo.jpeg' alt='Tombul Goril logo' className={styles.logo} />
+      </div>
     </Layout>
   );
 };

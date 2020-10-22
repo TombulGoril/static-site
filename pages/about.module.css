@@ -1,0 +1,12 @@
+.logo {
+  width: 384px;
+  height: 384px;
+  box-shadow: 0 0 0.5rem grey;
+}
+
+@media only screen and (max-width: 360px) {
+  .logo {
+    width: 256px;
+    height: 256px;
+  }
+}
