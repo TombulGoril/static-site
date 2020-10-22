@@ -5,6 +5,7 @@ import { ReactNode } from "react";
 import Link from "next/link";
 import styles from "./Layout.module.css";
 import { useRouter } from "next/router";
+import SocialIcons from "../Components/SocialIcons";
 
 // Props interface
 // Children: React JSX
@@ -67,9 +68,29 @@ const Layout: NextPage<IProps> = ({ children, logoWidthHeight }) => {
               </a>
             </Link>
           </li>
+          <li className={styles.nav_list_item}>
+            <Link href='/contact'>
+              <a
+                className={`${styles.nav_list_item_link} ${
+                  Router.pathname === "/contact"
+                    ? styles.nav_list_item_link_current
+                    : ""
+                }`}
+              >
+                Contact us
+              </a>
+            </Link>
+          </li>
         </ul>
       </nav>
       <section className={styles.page_content}>{children}</section>
+      <footer className={styles.footer}>
+        <SocialIcons />
+        <p>
+          &copy; {new Date().getFullYear()} Tombul Goril Ltd. - All rights
+          reserved
+        </p>
+      </footer>
     </>
   );
 };

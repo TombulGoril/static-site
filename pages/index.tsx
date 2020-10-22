@@ -6,7 +6,7 @@ import ImageGallery from "react-image-gallery";
 const Home: NextPage = () => {
   const sliderImages = [
     {
-      original: "/banner (1).png",
+      original: "/banner (4).png",
     },
     {
       original: "/banner (2).png",
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       original: "/banner (3).png",
     },
     {
-      original: "/banner (4).png",
+      original: "/banner (1).png",
     },
     {
       original: "/banner (5).png",
@@ -33,6 +33,7 @@ const Home: NextPage = () => {
           showPlayButton={false}
           showFullscreenButton={false}
           showThumbnails={false}
+          autoPlay={true}
         />
       </section>
     </Layout>
