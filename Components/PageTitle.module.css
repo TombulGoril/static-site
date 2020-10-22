@@ -4,6 +4,7 @@
 .large_uncentered {
   font-size: 2rem;
   display: block;
+  margin-left: 1rem;
 }
 
 .normal,
