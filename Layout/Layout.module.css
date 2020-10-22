@@ -4,6 +4,7 @@
   justify-content: space-between;
   background: var(--logo-color);
   padding: 0 0.5rem;
+  height: 128px;
 }
 
 .nav_list {
@@ -30,6 +31,7 @@
 
 .page_content {
   padding: 0;
+  min-height: calc(100vh - 240px);
 }
 
 .footer {
@@ -42,4 +44,8 @@
   background: var(--logo-color);
   font-weight: 300;
   font-size: 0.8rem;
+  position: absolute;
+  /* bottom: 0;
+  z-index: 0; */
+  height: 112px;
 }
