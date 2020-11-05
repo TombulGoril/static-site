@@ -6,22 +6,22 @@ import ImageGallery from "react-image-gallery";
 const Home: NextPage = () => {
   const sliderImages = [
     {
-      original: "/banner (4).png",
+      original: "/banner (4).jpeg",
     },
     {
-      original: "/banner (2).png",
+      original: "/banner (2).jpeg",
     },
     {
-      original: "/banner (3).png",
+      original: "/banner (3).jpeg",
     },
     {
-      original: "/banner (1).png",
+      original: "/banner (1).jpeg",
     },
     {
-      original: "/banner (5).png",
+      original: "/banner (5).jpeg",
     },
     {
-      original: "/banner (6).png",
+      original: "/banner (6).jpeg",
     },
   ];
   return (
